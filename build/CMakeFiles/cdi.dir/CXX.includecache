@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/luiz/cdi/CDI/main.cpp
+iostream
+-
+sysTools.h
+/home/luiz/cdi/CDI/sysTools.h
+
+/home/luiz/cdi/CDI/sysTools.h
+unistd.h
+-
+signal.h
+-
+string
+-
+iostream
+-
+cstdio
+-
+stdio.h
+-
+stdlib.h
+-
+
